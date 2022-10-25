@@ -1,0 +1,164 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+}
+button{
+  background: #6E707A;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: .3rem;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.seccion_header{
+  display: flex;
+  gap: 5rem;
+  padding-bottom: 1rem;
+
+}
+
+.header{
+  background-color: #1E213A;
+  background-image: linear-gradient(#1e213aa6,#1e213aa6),url(./imagenes/Cloud-background.png);
+  background-size: 500px 300px;
+  background-repeat: no-repeat;
+  background-position: center 5rem;
+  padding-bottom: 2rem;
+  
+}
+.temperatura{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 144px;
+  line-height: 169px;
+  color: #E7E7EB;
+}
+.tamaño_icon_ubicacion{
+  height: 20px;
+  width: 20px;
+}
+.main{
+  background-color: #100E1D;
+  padding-bottom: 2rem;
+}
+.buton_grados{
+  display: flex;
+  justify-content: flex-end;
+  gap: .5rem;
+  margin-top: 1rem;
+  margin-right: 3rem;
+}
+.buton_grados_1{
+  border-radius: 25px;
+}
+.buton_grados_2{
+  border-radius: 25px;
+}
+.titulo_tarjeta{
+  font-family:'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  color: #E7E7EB;
+}
+.grados_1{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  color: #E7E7EB;
+}
+.grados_2{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  color: #A09FB1;
+}
+.grados_2 span{
+  color: #A09FB1;
+}
+.tar_P{
+  background-color: #1E213A;
+  height: 177px;
+}
+
+.tar_G{
+  width: 328px;
+  height: 204px;
+  background-color:#1E213A ;
+}
+.seccion_tar_G{
+  display: flex;
+  justify-content: center;
+}
+.barra{
+  display: none;
+}
+.tamaño_img{
+  margin-top: 2rem;
+  width: 202px;
+  height: 234px;
+  
+}
+.flecha{
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+}
+.barra_humedad{
+  background: #E7E7EB;
+  border-radius: 80px;
+  width: 229px;
+  height: 8px;
+}
+.tamaño_h1_tG{
+  font-size: 50px;
+}
+.formulario{
+  color: #100E1D;
+}
+.bton{
+  color: #100E1D;
+}
+.contenedor_img{
+  width: 70px;
+  height: 70px;
+}
+
+#btn_1{
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  padding: .3rem;
+}
+
+#estado_dia{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  
+  color: #A09FB1;
+}
+.informacion_dia span,p{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  
+  color: #88869D;
+}
